@@ -1,5 +1,5 @@
 function conversor() {
-    let tipo = prompt("Qual moeda deseja converter em TO?");
+    let tipo = prompt("Qual moeda deseja converter em TO?\nTibar, Tibar de Prata ou Tibar de Platina:");
     let tibar;
 
     if (tipo === 'Tibar' || tipo === 'Tibar de Cobre' || tipo === 'tibar' || tipo === 'tibar de cobre' || tipo === 'TS') {
